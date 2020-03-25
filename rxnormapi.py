@@ -54,4 +54,3 @@ Use main function getDrugInfo(x) in code to return a Pandas DataFrame
 """
 
 df = getDrugInfo('ibuprofen')
-df
