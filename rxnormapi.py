@@ -47,3 +47,11 @@ def getDrugInfo(query):
             json.append(item)
 
     return(formatDf(json))
+
+"""
+Use main function getDrugInfo(x) in code to return a Pandas DataFrame
+'x' can equal a string (ie. 'ibuprofen') or an integer (ie. 1117353)
+"""
+
+df = getDrugInfo('ibuprofen')
+df
