@@ -42,6 +42,7 @@ def getDrugInfo(query):
   
     json = []
     for item in res:
+        ## Restrict the output of only specific term types by adding or removing them from the 'if' statement.
         if (item['tty'] == 'SBD' or item['tty'] == 'SCD' or item['tty'] == 'SCDG'):
             json.append(item)
 
